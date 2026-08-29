@@ -4,5 +4,5 @@ from zenml import step
 
 
 @step
-def evaluate_model(df: pd.DataFrame) -> float:
+def evaluate_model(df: pd.DataFrame) -> None:
     pass
